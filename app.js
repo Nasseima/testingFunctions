@@ -27,6 +27,7 @@ calculatePassingStatus(80)
 // Test #3
 // Implement determinGrade function
 function determineGrade(score){
+//Assign letter grade based on score.
     if(score <= 60){
         console.log(`F`)
     }
@@ -48,3 +49,24 @@ function determineGrade(score){
 }
  determineGrade(65)
 
+// Test #4
+// Implement interpretSeason Function.
+function interpretSeason(season){
+    if (season === "summer"){
+        console.log(`It is hot today.`)
+    }
+    else if (season === "spring"){
+        console.log(`The flowers are blooming.`)
+    }
+    else if (season === "autumn"){
+        console.log(`The leaves are changing colors.`)
+    }
+    else if (season === "winter"){
+        console.log(`It is cold today.`)
+    }
+    else{
+        console.log(`Please enter a valid season!`)
+    }
+}
+
+interpretSeason("spring")
