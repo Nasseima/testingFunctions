@@ -2,11 +2,12 @@
 // Implement checkAdultStatus function
 function checkAdultStatus(age){
 // Parameter is age
-    let limit = 18 
+    let adultStatus = 18 
 // Returns true if age is 18 or older.
 // Returns false if age is under 18.
-        console.log(limit === age)
+        console.log(age >= adultStatus)
 }
-checkAdultStatus(18)
+checkAdultStatus(25)
+checkAdultStatus(14)
 // Initialize adultStatus variable.
 
