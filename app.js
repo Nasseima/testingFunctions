@@ -70,3 +70,18 @@ function interpretSeason(season){
 }
 
 interpretSeason("spring")
+
+// Test #5
+// Implement weekendorWeekday function
+function weekendOrWeekday(dayOfTheWeek){
+    if(dayOfTheWeek === "saturday" && "sunday"){
+        console.log(`Have a good weekend`)
+    }
+    else{
+        console.log(`It is a weekday!`)
+    }
+}
+weekendOrWeekday("monday")
+
+// ALL Done!!!!
+
